@@ -243,6 +243,7 @@ button {
   letter-spacing: -0.3px;
 }
 
+
 @media screen and (max-width: 800px) {
 
   .menu-header a {
@@ -371,16 +372,16 @@ button {
 }
 
 .swiper-button-prev {
-  background-image: url(/img/Iconex/Right.svg);
+  background-image: url(../img/Iconex/Right.svg);
 }
 
 .swiper-button-next {
-  background-image: url(/img/Iconex/Left.svg);
+  background-image: url(../img/Iconex/Left.svg);
 }
 
 .swiper-button-prev,
 .swiper-button-next {
-  background-image: url('./img/Iconex/Right.svg');
+  background-image: url('../img/Iconex/Right.svg');
 }
 
 .swiper-button-prev {
@@ -390,7 +391,7 @@ button {
 
 
 .swiper-button-disabled {
-  background-image: url('./img/Iconex/Left.png');
+  background-image: url('../img/Iconex/Left.png');
   background-size: 100%;
 }
 
