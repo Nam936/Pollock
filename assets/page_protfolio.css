@@ -421,13 +421,14 @@ button {
 }
 
 .image_project {
-
+    
 }
 .thumb_image{
     
 }
 .thumb_project {
     border-radius: 10px;
+    width: 735px;
 }
 
 .thumb_project img {
@@ -443,7 +444,7 @@ button {
 .header_content {}
 
 .title_cont {
-    font-size: 4.2vw;
+    font-size: 2.1vw;
     color: #2D3958;
 }
 
@@ -452,13 +453,13 @@ button {
 }
 
 .tit {
-    font-size: 1.8vw;
+    font-size: 1vw;
     font-weight: 500;
     color: #2D3958;
 }
 
 .txt_cont {
-    font-size: 1.6vw;
+    font-size: 0.8vw;
     color: #7B88A8;
     line-height: 26px;
 }
@@ -466,7 +467,7 @@ button {
 .category {}
 
 .txt_cat {
-    font-size: 1.8vw;
+    font-size: 1vw;
     font-weight: 500;
     color: #4F77FF;
     line-height: 28px;
@@ -487,6 +488,8 @@ button {
 }
 
 .icon {}
+
+
 
 
 
