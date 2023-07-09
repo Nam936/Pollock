@@ -174,7 +174,7 @@ position: relative;
   justify-content: center;
   height: 500px;
   max-height: 500px;
-  background: url(/img/hero_background.png) center center;
+  background: url(../img/Hero_background.png) center center;
   text-align: center;
 }
 
