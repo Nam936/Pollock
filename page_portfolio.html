@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <link rel="stylesheet" href="./assets/page_protfolio.css">
+<link rel="stylesheet" href="./assets/aos.css">
 
 
 <head>
@@ -23,7 +24,7 @@
     <div id="wrap">
 
         <header class="header">
-            <div class="menu-header">
+            <div class="menu-header" data-aos="fade-down" data-aos-duration="1300">
                 <h1 class="logo-header">
                     <a href="index.html">
                         <span class="logo"><img src="./img/Logo.png" alt=""></span>
@@ -31,7 +32,7 @@
                     </a>
                 </h1>
                 <nav class="nav">
-                    <ul class="nav-lst">
+                    <ul class="nav-lst" data-aos="fade-down" data-aos-duration="1300">
                         <li class="nav-item"><a href="index.html" class="nav-link">home</a></li>
                         <li class="nav-item"><a href="index.html" class="nav-link">services</a></li>
                         <li class="nav-item"><a href="index.html" class="nav-link">about</a></li>
@@ -48,6 +49,7 @@
                             <img class="cart" src="./img/Iconex/Bag_header.png" alt="">
                         </button>
                         <button class="btn-signup">Signup</button>
+                    </button>
                 </div>
             </div>
         </header>
@@ -57,10 +59,10 @@
             <!-- Hero -->
             <div class="section-hero">
                 <div class="hero-txt">
-                    <h2 class="hero-title">Our Work</h2>
+                    <h2 class="hero-title" data-aos="zoom-in" data-aos-duration="2000">Our Work</h2>
                     <ul class="breadcrumb">
-                        <li class="bread-item"><a href="index.hml">Homepage</a></li>
-                        <li class="bread-item">projects</li>
+                        <li class="bread-item" data-aos="fade-right" data-aos-duration="1300"><a href="index.hml">Homepage</a></li>
+                        <li class="bread-item" data-aos="fade-left" data-aos-duration="1300">projects</li>
                     </ul>
                 </div>
             </div>
@@ -71,16 +73,16 @@
                 <div class="project">
                     <div class="image_project">
                         <ul class="thumb_image">
-                            <li class="thumb_project">
+                            <li class="thumb_project" data-aos="slide-up" data-aos-duration="1300">
                                 <img src="./img/main_img/7.png" alt="">
                             </li>
-                            <li class="thumb_project">
+                            <li class="thumb_project" data-aos="slide-up" data-aos-duration="1300">
                                 <img src="./img/main_img/8.png" alt="">
                             </li>
-                            <li class="thumb_project">
+                            <li class="thumb_project" data-aos="slide-up" data-aos-duration="1300">
                                 <img src="./img/main_img/9.png" alt="">
                             </li>
-                            <li class="thumb_project">
+                            <li class="thumb_project" data-aos="slide-up" data-aos-duration="1300">
                                 <img src="./img/main_img/10.png" alt="">
                             </li>
                         </ul>
@@ -104,7 +106,7 @@
         </main>
         <div class="background-slide">
             <div class="section-inner-slide">
-                <div class="section-subtit">
+                <div class="section-subtit" data-aos="fade-up" data-aos-duration="1000">
                     <h3 class="client-title">What our clients are saying about us</h3>
                     <p clas="txt-sub">Customer satisfaction is a primary goal for our company</p>
                 </div>
@@ -112,7 +114,7 @@
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <div class="card-item">
+                                <div class="card-item" data-aos="slide-up" data-aos-duration="1200">
                                     <div class="card-avatar">
                                         <div class="card-img">
                                             <img src="./img/avatar/avatar-1.svg" alt="">
@@ -132,7 +134,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-item">
+                                <div class="card-item" data-aos="slide-up" data-aos-duration="1600">
                                     <div class="card-avatar">
                                         <div class="card-img">
                                             <img src="./img/avatar/avatar-2.svg" alt="">
@@ -152,7 +154,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-item">
+                                <div class="card-item" data-aos="slide-up" data-aos-duration="2000">
                                     <div class="card-avatar">
                                         <div class="card-img">
                                             <img src="./img/avatar/avatar-3.svg" alt="">
@@ -172,7 +174,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-item end">
+                                <div class="card-item end" data-aos="slide-up" data-aos-duration="2000">
                                     <div class="card-avatar">
                                         <div class="card-img">
                                             <img src="./img/avatar/avatar-4.svg" alt="">
@@ -192,7 +194,7 @@
                                 </div>
                             </div>
                             <div class="swiper-slide">
-                                <div class="card-item">
+                                <div class="card-item" data-aos="slide-up" data-aos-duration="2000">
                                     <div class="card-avatar">
                                         <div class="card-img">
                                             <img src="./img/avatar/avatar-1.svg" alt="">
@@ -216,47 +218,17 @@
                 </div>
             </div>
         </div>
-
-
-        <!-- <div class="section-inner">
-            <div class="section-title-wrap">
-                <h3 class="section_title">Recent projects</h3>
-                <div class="btn-wrap">
-                    <button type="button" class="swiper-button-prev"></button>
-                    <button type="button" class="swiper-button-next"></button>
-                </div>
-            </div>
-            <div class="swiper-container swiper-initialize">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="./img/img.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/img2.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/img3.png" alt="">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="./img/img.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </div>
-
-
     <div class="section">
         <div class="section-inner-news">
             <div class="card-container-thumb">
                 <div class="title-main thumb">
-                    <h3 class="section-title">We will keep you up to date and give you tips to<br />help you optimise
+                    <h3 data-aos="fade-up" data-aos-duration="1500" class="section-title">We will keep you up to date and give you tips to<br />help you optimise
                         your company
                     </h3>
                 </div>
-
                 <div class="news-lst">
-                    <div class="news-featured">
+                    <div class="news-featured" data-aos="fade-up" data-aos-duration="1200">
                         <a href="#none" class="news-item">
                             <div class="thumb">
                                 <img class="img" src="./img/new1.png" alt="">
@@ -279,7 +251,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="news-featured">
+                    <div class="news-featured" data-aos="fade-up" data-aos-duration="1200">
                         <a href="#none" class="news-item">
                             <div class="thumb">
                                 <img class="img" src="./img/new2.png" alt="">
@@ -303,7 +275,7 @@
                         </a>
                     </div>
                     <div class="news-other">
-                        <a href="#none" class="news-item">
+                        <a href="#none" class="news-item" data-aos="fade-up" data-aos-duration="1000">
                             <div class="thumb">
                                 <img class="img" src="./img/new3.png" alt="">
                             </div>
@@ -322,7 +294,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#none" class="news-item">
+                        <a href="#none" class="news-item" data-aos="fade-up" data-aos-duration="1500">
                             <div class="thumb">
                                 <img class="img" src="./img/new4.png" alt="">
                             </div>
@@ -341,7 +313,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="#none" class="news-item">
+                        <a href="#none" class="news-item" data-aos="fade-up" data-aos-duration="2000">
                             <div class="thumb">
                                 <img class="img" src="./img/new5.png" alt="">
                             </div>
@@ -434,6 +406,8 @@
     <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
     <script src="./js/index.js"></script>
     <script src="./js/jquery.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 
 </html>
